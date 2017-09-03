@@ -29,7 +29,7 @@ createSequence(sequence){
 
 decodeSequence(sequence){
   let containerString = "";
-  let characters      = [...sequence];
+  let characters      = sequence.split("");
 
   for (let i = 0; i < characters.length; i++){
     let current         = characters[i];
@@ -67,3 +67,4 @@ _repeat(count, character){
 }
 }
 module.exports = LetterSequence;
+

@@ -31,3 +31,4 @@ static superPower(array){
 }
 
 module.exports = ArrayFunctions;
+
